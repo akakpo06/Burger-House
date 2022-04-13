@@ -1,0 +1,21 @@
+header{
+    background-color: #ffc045;
+}
+.header-top-left,.header-top-right{
+    display: inline-block;
+}
+.presentation-container{
+    display: flex;
+}
+.presentation-left{
+    width: 50%;
+}
+.presentation-right{
+    width: 50%;
+}
+.delivery-service{
+    color: black;
+}
+.boomboom{
+    display: flex;
+}
