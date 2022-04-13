@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Bebas-Neue';
-    src: url(/Eg-Fonts/fonts/BebasNeue-Regular.ttf);
+    src: url(/Polices/Eg-Fonts/fonts/BebasNeue-Regular.ttf);
 }
 @font-face{
     font-family: 'AlfaSlabOne';
-    src: url(/Eg-Fonts/fonts/AlfaSlabOne-Regular.ttf);
+    src: url(/Polices/AlfaSlabOne-Regular.ttf);
 }
 @font-face{
     font-family: 'Montserrat';
-    src: url(/Eg-Fonts/fonts/Montserrat-Regular.ttf);
+    src: url(/Polices/Eg-Fonts/fonts/Montserrat-Regular.ttf);
 }
 body{
     background-color: #fff4f4;
@@ -392,9 +392,12 @@ footer{
 .Bebas-Neue{
     font-family: 'Bebas-Neue','Courier New';
 }
-.bnb{
+.bnb,.bnr{
     font-family: 'Bebas-Neue';
 }
 .Alfaslabone{
     font-family: 'AlfaSlabOne','Courier New';
+}
+.montserrat-regular{
+    font-family: 'Montserrat';
 }
