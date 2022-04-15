@@ -39,6 +39,10 @@ header{
 .delivery-service-image{
     margin: auto;
     margin-right: 0px;
+    text-align: end;
+}
+.delivery-service-image img{
+    width: 45%;
 }
 .delivery-service-text{
     margin:auto;
@@ -49,21 +53,28 @@ header{
     text-align: right;
     margin-right: 50px;
 }
-ul li{
+menu li{
     display: inline;
     margin: 0px 20px;
 }
 li span{
     font-size: 18px;
 }
+a{
+    text-decoration: none;
+    color: #3e2715;
+}
 .header-content{
     display: flex;
 }
 .header-content-right{
-    width: 100%;
+    width: 42.5%;
     position: relative;
     left: 350px;
-    bottom: 90px;
+    bottom: 50px;
+}
+.header-content-right img{
+    width: 90%;
 }
 .dashed-border-text{
     border: 2px dashed #3e2715;
@@ -87,6 +98,7 @@ li span{
 .presentation{
     margin-top: 5%;
     display: flex;
+    padding: 1% 5%;
 }
 .presentation-left{
     position: relative;
@@ -97,7 +109,7 @@ li span{
 .presentation-left-image img{
     border-radius: 11px;
     width: 100%;
-    height: 100%;
+    height: 595px;
 }
 .presentation-left-text{
     position: absolute;
@@ -185,12 +197,12 @@ li span{
     margin-top: 10px;
 }
 .dish1,.dish2{
-    margin: 0% 5.6%;
+    margin: 0% 5.3%;
 }
 .dishes-proposals button,.button{
     background-color: #bf2222;
     border-style: none;
-    width: 30%;
+    width: 35%;
     height: 40px;
     display:block;
     margin: 0px auto;
@@ -260,6 +272,7 @@ li span{
 .reservation-header{
     position: relative;
     top: 70px;
+    left: 70px;
     width: 42%;
     text-align: center;
 }
@@ -277,24 +290,24 @@ li span{
 }
 .reservation-body-left{
     display: flex;
-    width: 75%;
+    width: 90%;
 }
 .reservation-body-left-image{
     width: 15%;
     text-align: right;
 }
 .reservation-body-left-image img{
-    width: 80%;
+    width: 53%;
 }
 .form-container{
-    margin-left: 15%;
+    margin-left: 8%;
     padding-top: 10px;
     text-align: center;
-    width: 150%;
+    width: 100%;
    
 }
 input{
-    width: 46%;
+    width: 47.7%;
     height: 80px;
     margin-bottom: 30px;
     margin-right: 20px;
@@ -306,7 +319,7 @@ input[placeholder="PEOPLE"]{
     right: 12px;
 }
 .form-container button{
-    width: 46%;
+    width: 48%;
     height: 84px;
     border-radius: 10px;
     border-style: none;
@@ -317,12 +330,15 @@ input[placeholder="PEOPLE"]{
     top: 6px;
     right: 8px;
 }
+.form-container button:hover{
+    background-color: #7a1111;
+}
 .reservation-right{
     margin-top:10%;
     width: 12%;
     text-align: right;
     overflow: hidden;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .reservation-right img{
     position: relative;
@@ -339,7 +355,7 @@ footer{
 }
 .footer-logo{
     position: absolute;
-    top: 35%;
+    top: 19%;
     left: 70px;
 }
 .footer-logo img{
@@ -347,7 +363,7 @@ footer{
 }
 .footer-text{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 70px;
     color: white;
     font-size: x-large;
@@ -359,7 +375,7 @@ footer{
 .footer-right{
     position: absolute;
     color: white;
-    top: 50%;
+    top: 40%;
     right: 200px;
 }
 .footer-info-image img{
@@ -371,7 +387,7 @@ footer{
 }
 .footer-bottom{
     position: absolute;
-    bottom: 190px;
+    bottom: 20%;
     display: flex;
 }
 .copyright{
@@ -382,7 +398,6 @@ footer{
 }
 .social-networks-container{
     margin-left: 85%;
-    border: 1px solid black;
 }
 .social-network{
     display: inline-block;
